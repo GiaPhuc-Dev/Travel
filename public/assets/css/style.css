@@ -1,0 +1,518 @@
+body {
+    background-image: url(../image/background.jpg);
+    width: 100%;
+}
+
+
+
+
+
+
+.header-img {
+    background-image: url(../image/header.jpg);
+    width: 100%;
+    height: 600px;
+    background-size: cover;
+    background-position: center;
+}
+
+.header-group {
+    position: relative;
+  animation-name: example;
+  animation-duration: 1s;
+}
+
+@keyframes example {
+    0%   { left:-300px; top:0px;}
+    100% { left:0px; top:0px;}
+  }
+
+.slogan {
+    margin-top: 110px;
+}
+
+
+
+.header-angiang {
+    font-size: 120px;
+    font-family: serif;
+    color: #6ada4f;
+    /* Màu chủ đạo */
+}
+
+
+
+.header-slogan {
+    font-size: 20px;
+    font-family: serif;
+}
+
+.header-button {
+    background-color: white;
+}
+
+.header-button-all {
+    width: 140px;
+}
+
+.header-button-text {
+    line-height: 28px;
+    font-weight: 600;
+}
+
+.header-checkin {
+    text-decoration: none;
+    color: #45a52e;
+}
+
+.header-checkin:hover {
+    color: white;
+
+}
+
+/* About  */
+.about{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    
+}
+.about-slogan{
+    padding: 30px;
+    background-color: white;
+    border-radius: 2rem;
+    box-shadow: rgba(0,0,0,0.15) 0px 2px 8px;
+    position: relative;
+    top: 70px;
+    right: 60px;
+    width: 740px;
+    animation-name: example2;
+    animation-duration: 1s;
+}
+
+@keyframes example2 {
+    0%   { right:-300px; top:70px;}
+    100% { right:60px; top:70px;}
+  }
+
+.about-slogan h3 {
+    font-size: 28px;
+    
+    color: black;
+}
+
+.img-about{
+    position: relative;
+    top: 0px;
+    border-radius: 20px;
+    left: 20px;
+    box-shadow: rgba(255, 253, 253, 0.15) 0px 2px 8px;
+    animation-name: example3;
+    animation-duration: 1s;
+}
+
+
+@keyframes example3 {
+    0%   { left:-300px; top:0px;}
+    100% { left:20px; top:0px;}
+  }
+
+.about-slogan h3 p{
+    font-size: 20px;
+    padding-top: 10px;
+    font-style: italic;
+}
+
+
+
+
+/* Product  */
+
+.product {
+    width: 100%;
+    height: auto;
+    background-color: rgb(255, 255, 255);
+    box-shadow: rgb(66, 66, 66) 0px 0px 10px 1px;
+    border-radius: 50px;
+    margin: 30px auto 30px;
+    
+}
+
+
+
+.product_main {
+    height: auto;
+    margin-top: 30px;
+    padding-top: 20px;
+    margin-bottom: 50px;
+}
+
+.product_welcome {
+    text-align: center;
+}
+
+.product_list {
+    padding-top: 0px;
+}
+
+.product_list-menu {
+    margin-bottom: 50px;
+    margin-left: 68px;
+}
+
+.product_list-menu-list {
+    list-style: none;
+    margin-left: -33px;
+}
+
+.product_list-menu-title {
+    float: left;
+    margin-bottom: 30px;
+}
+
+.product_list-menu-title>a {
+    text-decoration: none;
+    padding: 5px 20px;
+    color: #6ada4f;
+    font-size: 19px;
+    margin: 0 10px;
+    font-weight: 500;
+    border: 2px solid #6ada4f;
+    border-radius: 20px;
+    font-family: none;
+
+}
+
+.product_list-menu-title>a:hover {
+    background-color: #6ada4f;
+    color: white;
+    border-radius: 20px;
+
+}
+
+
+
+
+
+
+
+.product_list-item {
+    /* background-color: red; */
+    width: 100%;
+    height: auto;
+    margin-left: 30px;
+    margin-top: 15px;
+    position: relative;
+    animation-name: example4;
+    animation-duration: 2s;
+}
+@keyframes example4 {
+    0%   { left:-300px; top:0px;}
+    100% { left:20px; top:0px;}
+  }
+
+.product_list-item-card {
+    width: 361px;
+    height: auto;
+    margin-left: 15px;
+    float: left;
+    margin-bottom: 50px;
+    background-color: rgb(250, 253, 233);
+    border-radius: 20px;
+}
+
+.product_list-item-card-img {
+    width: 100%;
+    height: 330px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 20px;
+
+}
+
+.product_list-item-card-title {
+    line-height: 50px;
+    padding-left: 10px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+
+.product_list-item-card-title-text-info {
+    padding-left: 10px;
+    font-size: 15px;
+}
+
+.product_list-item-card-title-text-info-mini {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    line-height: 25px;
+    -webkit-line-clamp: 3;
+    height: 75px;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+}
+
+.product_list-item-card-title-btn {
+    padding-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+/* Product detail  */
+.product_detail {
+    width: 100%;
+    height: auto;
+    background-color: rgb(255, 255, 255);
+    box-shadow: rgb(66, 66, 66) 0px 0px 10px 1px;
+    border-radius: 50px;
+    margin: 30px auto 30px;
+}
+
+.product_detail-left {
+    padding: 20px 0 20px 20px;
+    margin-left: 10px;
+
+}
+
+.product_detail-title {
+    font-size: 30px;
+}
+
+.product_detail-time {
+    font-weight: 600;
+}
+
+.product_detail-summary-mini {
+    margin-top: 12px;
+    font-size: 16px;
+}
+
+
+.product_detail-img-summary {
+    text-align: center;
+    font-style: italic;
+}
+
+.product_detail-img {
+    margin-top: 12px;
+    width: 100%;
+}
+
+.product_detail-summary-big {
+    margin-top: 20px;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.product_detail-info-title {
+    font-size: 30px;
+}
+
+.product_detail-img-title {
+    font-size: 30px;
+}
+
+.product_detail-address-tutorial-title {
+    font-size: 30px;
+}
+
+
+.product_detail-right {
+    padding: 20px;
+    margin-left: 10px;
+
+}
+
+.content_summary {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    line-height: 25px;
+    -webkit-line-clamp: 3;
+    height: 75px;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+}
+
+.product-pr {
+    font-size: 22px;
+}
+
+
+.product-pr-line {
+    display: flex;
+    justify-content: left;
+    margin-bottom: 10px;
+}
+
+.product-pr-line1 {
+    background-color: rgb(255, 187, 0);
+    width: 30%;
+    height: 2px;
+}
+
+.product-pr-line2 {
+    background-color: rgb(216, 216, 216);
+    width: 70%;
+    height: 2px;
+}
+
+.product-pr-line3 {
+    margin-top: 10px;
+    background-color: rgb(216, 216, 216);
+    width: 100%;
+    height: 1px;
+}
+
+.product-pr-img {
+    width: 100%;
+}
+
+/* Signup */
+
+.form_signup-right,
+.form_signup-left {
+    margin-top: 10px;
+    margin-bottom: 40px;
+    ;
+    width: 600px;
+    height: 634px;
+}
+
+.form_signup-right {
+    background-color: rgb(255, 255, 255);
+}
+
+.form_signup-left {
+
+    background-image: url(../image/header.jpg);
+    background-size: cover;
+}
+
+
+.form_signup-label {
+    color: rgb(170, 180, 29);
+    margin-left: 10px;
+}
+
+input[type=text],
+input[type=password] {
+    width: 100%;
+    padding: 15px;
+    margin: 0 0 8px 0;
+    display: inline-block;
+    border: none;
+    width: 100%;
+    resize: vertical;
+    padding: 15px;
+    border-radius: 15px;
+    border: 0;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+
+button:hover {
+    opacity: 1;
+}
+
+
+
+.signupbtn {
+    float: left;
+    width: 100%;
+    border-radius: 15px;
+    border: 0;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+}
+
+
+.form_signup-container {
+    padding: 16px;
+}
+
+/* Login  */
+
+.form_login-right,
+.form_login-left {
+    margin-top: 10px;
+    margin-bottom: 40px;
+    ;
+    width: 600px;
+    height: 400px;
+}
+
+.form_login-right {
+
+    background-color: rgb(255, 255, 255);
+}
+
+.form_login-left {
+
+    background-image: url(../image/header.jpg);
+    background-size: cover;
+}
+
+
+.form_login-label {
+    color: rgb(170, 180, 29);
+    margin-left: 10px;
+}
+
+input[type=text],
+input[type=password] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 8px 0;
+    display: inline-block;
+    border: none;
+    width: 100%;
+    resize: vertical;
+    padding: 15px;
+    border-radius: 15px;
+    border: 0;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+
+button:hover {
+    opacity: 1;
+}
+
+
+
+.loginbtn {
+    float: left;
+    width: 100%;
+    border-radius: 15px;
+    border: 0;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+}
+
+
+.form_login-container {
+    padding: 16px;
+}
+
+
+
+
+
+
+.clear {
+    clear: both;
+}

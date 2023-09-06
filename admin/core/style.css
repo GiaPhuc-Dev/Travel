@@ -1,0 +1,23 @@
+input.input_category{
+    width: 320px;
+    float: left;
+    margin-right: 10px;
+  
+}
+
+.input_category_group{
+    margin-top: 10px;
+}
+
+.row > .notice-input-category{
+    margin-top: 10px;
+}
+
+
+
+
+
+.clear{
+    clear:both;
+}
+
