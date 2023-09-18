@@ -16,7 +16,7 @@ if (!isset($_SESSION)) {
         border-radius: 20px;
     }
 </style>
-<nav style="position: -webkit-sticky; position: sticky; top: 0;"
+<nav style="position: -webkit-sticky; position: sticky; top: 0; z-index:1"
     class="navbar justify-content-between navbar-expand-sm bg-light nav-pills">
     <a href="index.php">
         <img class="" style="margin-left: 20px;width: 200px;" src="./assets/image/logo.png" />
