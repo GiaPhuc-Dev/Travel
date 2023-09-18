@@ -65,7 +65,7 @@ $result = $query->fetch();
                                         <?php echo $result['title'] ?>
                                     </h6>
                                     <h6 class="product_detail-info-content-address">Địa chỉ:
-                                        <?php echo $result['address'] ?>g
+                                        <?php echo $result['address'] ?>
                                     </h6>
                                     <h6 class="product_detail-info-content-origin-name">Nội dung:
                                         <?php echo $result['content'] ?>
